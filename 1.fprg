@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Kajetan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-30 03:29:02 PM"/>
+        <attribute name="created" value="S2FqZXRhbjtERVNLVE9QLTVHVEJJQlU7MjAyMi0xMC0zMDswMzoyNToxNSBQTTszMDUz"/>
+        <attribute name="edited" value="S2FqZXRhbjtERVNLVE9QLTVHVEJJQlU7MjAyMi0xMC0zMDswMzoyOTowMiBQTTsxOzMxNjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ile, i" type="Integer" array="False" size=""/>
+            <input variable="ile"/>
+            <for variable="i" start="ile" end="1" direction="dec" step="1">
+                <output expression="i" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
